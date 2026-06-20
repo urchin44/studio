@@ -1,0 +1,42 @@
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+
+    @media (min-width: 768px) {
+    }
+}
+
+.btn-borderless {
+    background-color: transparent;
+    border: 0;
+    color: var(--text);
+    font-weight: 800;
+    margin: 0px 10px;
+
+    &.large {
+        font-size: 26px !important;
+    }
+
+    &.underline {
+        text-decoration: underline;
+    }
+}
+
+.btn-borderless.orange {
+    background-color: transparent;
+    border: 0;
+    color: var(--text-red);
+    font-weight: 800;
+    margin: 0px 10px;
+}
+
+.btn-borderless.orange:hover {
+    color: var(--text-orange);
+}
+
+.btn-borderless:active {
+    border-bottom: 1px;
+}

@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 :root {
     --text: #6b6375;
+    --text-orange: #f5a627;
+    --text-blue: #7590ff;
+    --text-red: #ed6666;
     --text-h: #08060d;
     --bg: #fff;
-    --border: #e5e4e7;
-    --code-bg: #f4f3ec;
-    --accent: #aa3bff;
-    --accent-bg: rgba(170, 59, 255, 0.1);
+    --accent-bg: rgba(173, 255, 47, 0.8);
     --accent-border: rgba(170, 59, 255, 0.5);
     --social-bg: rgba(244, 243, 236, 0.5);
     --shadow:
@@ -14,8 +16,10 @@
     --sans: system-ui, "Segoe UI", Roboto, sans-serif;
     --heading: system-ui, "Segoe UI", Roboto, sans-serif;
     --mono: ui-monospace, Consolas, monospace;
+    --inter: "Inter", sans-serif;
 
-    font: 18px/145% var(--sans);
+    font: 18px/145% var(--inter);
+    font-weight: 400;
     letter-spacing: 0.18px;
     color-scheme: light dark;
     color: var(--text);

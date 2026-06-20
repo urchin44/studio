@@ -1,16 +1,30 @@
-import "./App.css";
+import "./App.scss";
+import Tabs from "./components/Tabs";
+import Tab from "./components/Tab";
+import Studio from "./containers/Studio";
+import Blog from "./containers/Blog";
 
 function App() {
   return (
     <>
-      <section id="center"></section>
-
-      <div className="ticks"></div>
-
-      <section id="next-steps"></section>
-
-      <div className="ticks"></div>
-      <section id="spacer"></section>
+      <div className="horizontalContainer">
+        <img
+          className="image-small"
+          src="./src/assets/urchinTitleSpike.png"
+          alt=""
+        />
+        <Tabs>
+          <Tab title="Studio" variant="borderless orange underline">
+            <Studio />
+          </Tab>
+          <Tab title="Blog" variant="borderless orange underline">
+            <Blog />
+          </Tab>
+          <Tab title="Tab 3" variant="borderless orange underline">
+            <p></p>
+          </Tab>
+        </Tabs>
+      </div>
     </>
   );
 }
