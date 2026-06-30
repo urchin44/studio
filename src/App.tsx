@@ -8,11 +8,13 @@ function App() {
   return (
     <>
       <div className="horizontalContainer">
-        <img
-          className="image-small"
-          src="./src/assets/urchinTitleSpike.png"
-          alt=""
-        />
+        <div className="container orange">
+          <img
+            className="image-small"
+            src="./src/assets/urchinTitleSpike.png"
+            alt=""
+          />
+        </div>
         <Tabs>
           <Tab title="Studio" variant="borderless orange underline">
             <Studio />

@@ -202,3 +202,19 @@
     display: flex;
     gap: 16px;
 }
+
+.container {
+    padding: 5px;
+
+    &.orange {
+        background-color: var(--accent-bg-orange);
+    }
+
+    &.red {
+        background-color: var(--accent-bg-red);
+    }
+
+    &.blue {
+        background-color: var(--accent-bg-blue);
+    }
+}

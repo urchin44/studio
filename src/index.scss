@@ -2,14 +2,18 @@
 
 :root {
     --text: #6b6375;
+    --text-green: #adff2f;
     --text-orange: #f5a627;
     --text-blue: #7590ff;
     --text-red: #ed6666;
     --text-h: #08060d;
     --bg: #fff;
-    --accent-bg: rgba(173, 255, 47, 0.8);
-    --accent-border: rgba(170, 59, 255, 0.5);
-    --social-bg: rgba(244, 243, 236, 0.5);
+    --accent-bg-green: rgba(173, 255, 47, 0.8);
+    --accent-bg-orange: rgba(255, 166, 0, 0.7);
+    --accent-bg-red: rgba(255, 0, 0, 0.7);
+    --accent-bg-blue: rgba(0, 0, 255, 0.7);
+    --accent-bg-purple: rgba(189, 160, 235, 0.8);
+    --social-bg: rgba(244, 243, 236, 0);
     --shadow:
         rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
 
